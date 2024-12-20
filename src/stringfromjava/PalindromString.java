@@ -8,8 +8,8 @@ public class PalindromString {
 		String s = "radar";
 		String rev = "";
 		
-		for(int i = s.length()-1;i>=0;i--) {
-			rev = rev+s.charAt(i);
+		for(int i = s.length()-1;i>=0;i--) {        // == Used to compare primitive data type or check if two references point to the same object.
+			rev = rev+s.charAt(i);                  // .equals => used to compare content 
 		}
 		System.out.println(rev);
 		if(rev.equals(s)) {

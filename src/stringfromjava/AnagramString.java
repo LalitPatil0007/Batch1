@@ -24,6 +24,12 @@ public class AnagramString {
 			System.out.println("Strings are not anagram");
 		}
 
+		
+		String s2  = "Lalit";
+		String s3 = new String("Lalit");
+		String s4 = "Lalit";
+		System.out.println(s2==s3);
+		System.out.println(s2==s4);
 	}
 
 }

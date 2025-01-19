@@ -1,0 +1,9 @@
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="firstname" value="Lalit" />
+		<parameter name="lastname" value="Patil" />
+		<classes>
+			<class name="conceptsontestng.ParameterFromXMLInTestNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

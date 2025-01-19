@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-19T23:36:01 IST" name="Parallel Suite" finished-at="2025-01-19T23:45:16 IST" duration-ms="554926">
+    <groups>
+    </groups>
+    <test started-at="2025-01-19T23:36:01 IST" name="Parallel Test" finished-at="2025-01-19T23:45:16 IST" duration-ms="554926">
+      <class name="conceptsontestng.ParallelExecutionInTestNG">
+        <test-method signature="test2()[pri:0, instance:conceptsontestng.ParallelExecutionInTestNG@1cbbffcd]" started-at="2025-01-19T23:36:02 IST" name="test2" finished-at="2025-01-19T23:37:32 IST" duration-ms="90430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test1()[pri:0, instance:conceptsontestng.ParallelExecutionInTestNG@1cbbffcd]" started-at="2025-01-19T23:36:02 IST" name="test1" finished-at="2025-01-19T23:37:36 IST" duration-ms="94457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test0()[pri:0, instance:conceptsontestng.ParallelExecutionInTestNG@1cbbffcd]" started-at="2025-01-19T23:36:02 IST" name="test0" finished-at="2025-01-19T23:37:46 IST" duration-ms="104212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0 -->
+        <test-method signature="test3()[pri:0, instance:conceptsontestng.ParallelExecutionInTestNG@1cbbffcd]" started-at="2025-01-19T23:37:32 IST" name="test3" finished-at="2025-01-19T23:38:25 IST" duration-ms="52318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:conceptsontestng.ParallelExecutionInTestNG@1cbbffcd]" started-at="2025-01-19T23:37:36 IST" name="test4" finished-at="2025-01-19T23:41:15 IST" duration-ms="218647" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baf5bee917240b29163f5e4bfb876afc, get {url=https://www.tickertape.in/screener/mutual-fund}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58569/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baf5bee917240b29163f5e4bfb876afc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baf5bee917240b29163f5e4bfb876afc, get {url=https://www.tickertape.in/screener/mutual-fund}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58569}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58569/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: baf5bee917240b29163f5e4bfb876afc
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:422)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at conceptsontestng.ParallelExecutionInTestNG.test4(ParallelExecutionInTestNG.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:conceptsontestng.ParallelExecutionInTestNG@1cbbffcd]" started-at="2025-01-19T23:37:46 IST" name="test5" finished-at="2025-01-19T23:41:29 IST" duration-ms="222725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- conceptsontestng.ParallelExecutionInTestNG -->
+      <class name="conceptsontestng.ParallelExecutionTestNGEdge">
+        <test-method signature="test0()[pri:0, instance:conceptsontestng.ParallelExecutionTestNGEdge@188715b5]" started-at="2025-01-19T23:38:25 IST" name="test0" finished-at="2025-01-19T23:39:31 IST" duration-ms="66620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0 -->
+        <test-method signature="test1()[pri:0, instance:conceptsontestng.ParallelExecutionTestNGEdge@188715b5]" started-at="2025-01-19T23:39:31 IST" name="test1" finished-at="2025-01-19T23:41:11 IST" duration-ms="99741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:conceptsontestng.ParallelExecutionTestNGEdge@188715b5]" started-at="2025-01-19T23:41:11 IST" name="test2" finished-at="2025-01-19T23:42:46 IST" duration-ms="95136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:conceptsontestng.ParallelExecutionTestNGEdge@188715b5]" started-at="2025-01-19T23:41:15 IST" name="test3" finished-at="2025-01-19T23:42:43 IST" duration-ms="87901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:conceptsontestng.ParallelExecutionTestNGEdge@188715b5]" started-at="2025-01-19T23:41:29 IST" name="test4" finished-at="2025-01-19T23:44:01 IST" duration-ms="152695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:conceptsontestng.ParallelExecutionTestNGEdge@188715b5]" started-at="2025-01-19T23:42:43 IST" name="test5" finished-at="2025-01-19T23:45:16 IST" duration-ms="153423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- conceptsontestng.ParallelExecutionTestNGEdge -->
+    </test> <!-- Parallel Test -->
+  </suite> <!-- Parallel Suite -->
+</testng-results>

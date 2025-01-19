@@ -1,0 +1,10 @@
+<suite name="Regression Suite On_Firefox">
+	<test  name="On_Firefox">
+		<classes>
+			<class name="testngex.Case1" />
+			<class name="testngex.Case2" />
+			<class name="testngex.Case3" />
+			<class name="testngex.Case4" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

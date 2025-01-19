@@ -1,0 +1,7 @@
+<suite name="Master Suite">
+<suite-files>
+<suite-file path="./chrome.xml"/>
+<suite-file path="./firefox.xml"/>
+<suite-file path="./edge.xml"/>
+</suite-files>
+</suite> <!-- Suite -->

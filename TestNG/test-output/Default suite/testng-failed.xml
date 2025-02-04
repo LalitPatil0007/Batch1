@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="conceptsontestng.AlwaysRunInTestNG">
+      <class name="conceptsontestng.IretrialAnalyzerInTestNG">
         <methods>
-          <include name="test0"/>
+          <include name="test5"/>
         </methods>
-      </class> <!-- conceptsontestng.AlwaysRunInTestNG -->
+      </class> <!-- conceptsontestng.IretrialAnalyzerInTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
